@@ -6,28 +6,23 @@ body {
 
 div {
   background-color: hsl(0, 0%, 12%);
-
+  border-radius: 8px ;
   display: flex;
-
   align-items: center;
-
   flex-direction: column;
-
-  max-width: 325px;
-
-  padding: 25px 5px 5px 25px;
-
+  max-width: 375px;
   margin: auto;
 }
 
 img {
   border-radius: 50%;
-
-  width: 50%;
+  padding: 20px;
+  width: 40%;
 }
 
 h1 {
   font-weight: 700;
+  margin: 0;
 }
 
 h1,
@@ -38,11 +33,12 @@ p {
 
 p {
   font-size: 14px;
+  margin-top: 15px;
 }
 
 h3 {
   color: hsl(75, 94%, 57%);
-
+  margin-top: 10px;
   font-weight: 400;
 }
 
@@ -54,6 +50,14 @@ button {
   padding: 15px;
 
   width: 300px;
-
+  border-radius: 8px;
   margin: 0px auto 20px auto;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color:black;
+   
+    
 }
